@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- Source for the Chrome Web Store promo tiles (screenshot at 440x280 and 1400x560). Not packaged. -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        padding: 0 7%;
+        box-sizing: border-box;
+        background: linear-gradient(135deg, #eef2ff 0%, #ffffff 60%);
+        font-family: system-ui, 'Segoe UI', sans-serif;
+        color: #0f172a;
+        overflow: hidden;
+      }
+      .text {
+        flex: 1;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        font-weight: 700;
+        white-space: nowrap;
+        font-size: min(4.6vw, 8.2vh);
+      }
+      h1 {
+        margin: 0.35em 0 0.3em;
+        font-size: min(7.4vw, 11.6vh);
+        line-height: 1.08;
+        letter-spacing: -0.02em;
+      }
+      p {
+        margin: 0;
+        color: #475569;
+        font-size: min(3.9vw, 6.1vh);
+      }
+      .stack {
+        position: relative;
+        height: 78%;
+        aspect-ratio: 3 / 4;
+      }
+      .stack img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6%;
+        box-shadow: 0 10px 30px rgba(49, 46, 129, 0.25);
+        background: #fff;
+      }
+      .stack img:nth-child(1) {
+        transform: translate(-18%, 10%) rotate(-8deg);
+        opacity: 0.55;
+      }
+      .stack img:nth-child(2) {
+        transform: translate(-9%, 5%) rotate(-4deg);
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="1.4em" height="1.4em" aria-hidden="true">
+          <path d="M7.09 19.8 3 22l13 7 13-7-4.09-2.2L16 24.6z" fill="#c7d2fe" />
+          <path d="M7.09 13.8 3 16l13 7 13-7-4.09-2.2L16 18.6z" fill="#8b8ff5" />
+          <path d="M16 3 29 10 16 17 3 10z" fill="#4f46e5" />
+        </svg>
+        Image to Layer
+      </div>
+      <h1>See any image split into layers</h1>
+      <p>26 layered examples · works offline</p>
+    </div>
+    <div class="stack">
+      <img src="../samples/poster/layer-01.webp" alt="" />
+      <img src="../samples/poster/layer-04.webp" alt="" />
+      <img src="poster-composite.webp" alt="" />
+    </div>
+  </body>
+</html>

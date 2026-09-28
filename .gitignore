@@ -1,0 +1,13 @@
+dist/
+.env
+.env.*
+*.local
+node_modules/
+data/
+.output/
+.nitro/
+src/paraglide/
+src/routeTree.gen.ts
+*.log
+.DS_Store
+Thumbs.db

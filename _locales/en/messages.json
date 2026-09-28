@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Image to Layer — Layer Split Examples"
+  },
+  "extDescription": {
+    "message": "Browse 26 image to layer examples offline: see how posters, products, logos and screenshots split into editable PSD layers."
+  },
+  "actionTitle": {
+    "message": "Image to Layer examples"
+  },
+  "menuSearch": {
+    "message": "Search image to layer examples for “%s”"
+  },
+  "menuSplit": {
+    "message": "Split this image into layers on Image to Layer"
+  }
+}

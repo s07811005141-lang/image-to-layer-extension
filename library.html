@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image to Layer — Layer Split Examples</title>
+    <link rel="icon" href="icons/icon-32.png" />
+    <link rel="stylesheet" href="library.css" />
+    <script type="module" src="library.js"></script>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" id="brand" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
+          <path d="M7.09 19.8 3 22l13 7 13-7-4.09-2.2L16 24.6z" fill="#c7d2fe" />
+          <path d="M7.09 13.8 3 16l13 7 13-7-4.09-2.2L16 18.6z" fill="#8b8ff5" />
+          <path d="M16 3 29 10 16 17 3 10z" fill="#4f46e5" />
+        </svg>
+        <span class="brand-text">
+          <strong>Image to Layer</strong>
+          <span id="tagline"></span>
+        </span>
+      </a>
+      <a class="icon-btn" id="expand" target="_blank" rel="noopener" hidden>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path d="M14 4h6v6M20 4l-8 8M10 20H4v-6M4 20l8-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </a>
+    </header>
+
+    <main id="main">
+      <section id="browse">
+        <div class="search">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <input id="q" type="search" autocomplete="off" spellcheck="false" />
+        </div>
+        <div class="chips" id="chips" role="tablist"></div>
+        <p class="count" id="count" aria-live="polite"></p>
+        <ul class="grid" id="grid"></ul>
+        <p class="empty" id="empty" hidden></p>
+      </section>
+
+      <section id="detail" hidden></section>
+    </main>
+
+    <footer class="foot">
+      <a class="cta" id="footCta" target="_blank" rel="noopener"></a>
+      <nav class="guides" id="guides"></nav>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Image to Layer 图片转图层 — 拆层示例库"
+  },
+  "extDescription": {
+    "message": "离线浏览 26 个图片转图层示例：看海报、商品图、Logo 和截图如何拆成可编辑的 PSD 图层。"
+  },
+  "actionTitle": {
+    "message": "图片转图层示例库"
+  },
+  "menuSearch": {
+    "message": "在图片转图层示例库中搜索“%s”"
+  },
+  "menuSplit": {
+    "message": "用 Image to Layer 把这张图拆成图层"
+  }
+}
